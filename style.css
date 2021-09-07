@@ -23,6 +23,7 @@ body {
     display: table;
     width: 100%;
     height: 100%;
+    z-index: 5;
 }
 
 .parallax-inner {
@@ -41,17 +42,20 @@ h1 {
 }
 
 #Name {
-    font-size: 25px;
+    font-size: 35px;
     line-height: 1.6789;
-    font-family: serif;
     color: black;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 35px;
     line-height: 1.6789;
-    font-family: sans-serif;
-    font-weight: 300;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
     color: black;
 }
 
@@ -72,4 +76,29 @@ p {
     margin: 20px auto;
     font-size: 20px;
     line-height: : 1.56789;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 7;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.links:hover {
+    background-color: #00F5B4;
 }
