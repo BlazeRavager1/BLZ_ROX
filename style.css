@@ -81,10 +81,10 @@ p {
 .menu {
     list-style: none;
     font-family: fantasy;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 550px;
-    z-index: 7;
+    z-index: 5;
     cursor: pointer;
 }
 
@@ -101,4 +101,12 @@ p {
 
 .links:hover {
     background-color: #00F5B4;
+}
+
+a{
+    text-decoration: none;
+}
+
+.article:hover{
+    color:crimson;
 }
