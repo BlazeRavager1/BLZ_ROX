@@ -79,13 +79,15 @@ p {
 }
 
 .menu {
+    margin-top: 0px;
     list-style: none;
     font-family: fantasy;
     position: fixed;
-    top: 10px;
+    top: 0px;
     left: 550px;
-    z-index: 5;
+    z-index: 7;
     cursor: pointer;
+    background:white;
 }
 
 .links {
@@ -93,20 +95,31 @@ p {
     color: #FFF;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-size: 25px;
     font-family: monospace;
 }
 
 .links:hover {
     background-color: #00F5B4;
+    text-decoration: underline;
+    font-size: 27px;
 }
 
 a{
     text-decoration: none;
+    color:lime;
+    text-shadow:2px 2px gainsboro;
 }
 
 .article:hover{
     color:crimson;
 }
+
+#Writings a{
+    text-shadow: 2px !important;
+    text-decoration: overline !important;
+    color:orange !important;
+}
+
