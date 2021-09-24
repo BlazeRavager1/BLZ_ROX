@@ -85,7 +85,7 @@ p {
     position: fixed;
     top: 0px;
     left: 550px;
-    z-index: 7;
+    z-index: 10;
     cursor: pointer;
     background:white;
     width: 100px;
