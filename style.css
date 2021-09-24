@@ -88,6 +88,7 @@ p {
     z-index: 7;
     cursor: pointer;
     background:white;
+    width: 100px;
 }
 
 .links {
